@@ -1,0 +1,28 @@
+/* Centrer det hele midt på skærmen */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1f2937; /* Baggrundsfarve fra Figma */
+}
+
+h1 {
+    color:white;
+}
+
+p {
+    color:white;
+    border: #1f2937 1px;
+    
+}
+/* Placer de to password-felter side om side */
+.passwords-wrapper {
+  display: flex;
+  gap: 16px; /* Afstanden du målte i Figma */
+}
+Button{
+    background-color: rgb(122, 240, 235);
+    color:black;
+    font-weight: bold;
+}
